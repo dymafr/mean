@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "prod": "PORT=80 node ./bin/www"
+    "prod": "sudo PORT=80 node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "^1.4.5",
-    "debug": "^4.3.2",
-    "express": "^4.17.1",
-    "mongoose": "^5.13.9",
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.5",
     "morgan": "^1.10.0",
     "serve-favicon": "^2.5.0"
   }
